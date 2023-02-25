@@ -1,0 +1,46 @@
+@font-face {
+  font-family: "Vazirmatn";
+  src: url("./fonts/vazirmatn/fonts/webfonts/Vazirmatn[wght].woff2")
+      format("woff2 supports variations"),
+    url("./fonts/vazirmatn/fonts/webfonts/Vazirmatn[wght].woff2")
+      format("woff2-variations");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Vazirmatn, sans-serif;
+}
+.app {
+  background-color: rgb(233, 233, 233);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  margin-top: 2rem;
+  display: flex;
+  gap: 1rem;
+  font-size: 1.1rem;
+}
+.title > span {
+  background-color: rgb(8, 184, 8);
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: white;
+}
+.container {
+  width: 100%;
+  max-width: 1300px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 6rem;
+}
